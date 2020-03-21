@@ -2,6 +2,7 @@
 templateKey: index-page
 title: Digital Health Solutions
 image: /img/home-jumbotron.jpg
+imageAttribution: Photo by Agustinus Nathaniel on Unsplash
 heading: Digital Health Solutions
 subheading: Building a connected healthcare app ecosystem
 mainpitch:

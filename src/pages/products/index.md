@@ -3,6 +3,7 @@ templateKey: 'product-page'
 path: /products
 title: Our Products
 image: /img/jumbotron.jpg
+imageAttribution: Photo by ian dooley on Unsplash
 heading: Connected healthcare
 description: >-
   We offer trusted end-to-end healthcare solutions for clinics and health centres.

@@ -6,7 +6,8 @@ import Features from '../components/Features'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const ProductPageTemplate = ({
-  image,
+    image,
+    imageAttribution,
   title,
   heading,
   description,
@@ -32,6 +33,22 @@ export const ProductPageTemplate = ({
       >
         {title}
       </h2>
+
+        <div
+            style={{
+                alignSelf: 'flex-end',
+                boxShadow: 'rgb(25, 113, 163) 0.5rem 0px 0px, rgb(25, 113, 163) -0.5rem 0px 0px',
+                backgroundColor: 'rgb(25, 113, 163)',
+                color: 'white',
+                lineHeight: '1',
+                padding: '0.25em',
+                opacity: '0.7',
+                fontSize: '0.6em'
+      }}
+        >
+            {imageAttribution}
+            </div>
+
     </div>
     <section className="section section--gradient">
       <div className="container">
@@ -83,7 +100,8 @@ const ProductPage = ({ data }) => {
   return (
     <Layout>
       <ProductPageTemplate
-        image={frontmatter.image}
+          image={frontmatter.image}
+          imageAttribution={frontmatter.imageAttribution}
         title={frontmatter.title}
         heading={frontmatter.heading}
         description={frontmatter.description}
@@ -115,6 +133,7 @@ export const productPageQuery = graphql`
             }
           }
         }
+        imageAttribution
         heading
         description
         intro {

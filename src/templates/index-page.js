@@ -7,7 +7,8 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
-  image,
+    image,
+    imageAttribution,
   title,
   heading,
   subheading,
@@ -58,9 +59,23 @@ export const IndexPageTemplate = ({
             padding: '0.25em',
           }}
         >
-          {subheading}
+            {subheading}
         </h3>
       </div>
+        <div
+            style={{
+                alignSelf: 'flex-end',
+                boxShadow: 'rgb(25, 113, 163) 0.5rem 0px 0px, rgb(25, 113, 163) -0.5rem 0px 0px',
+                backgroundColor: 'rgb(25, 113, 163)',
+                color: 'white',
+                lineHeight: '1',
+                padding: '0.25em',
+                opacity: '0.7',
+                fontSize: '0.6em'
+      }}
+        >
+            {imageAttribution}
+            </div>
     </div>
     <section className="section section--gradient">
       <div className="container">
@@ -130,7 +145,8 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
+          image={frontmatter.image}
+          imageAttribution={frontmatter.imageAttribution}
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
@@ -164,6 +180,7 @@ export const pageQuery = graphql`
             }
           }
         }
+        imageAttribution
         heading
         subheading
         mainpitch {

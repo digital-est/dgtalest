@@ -24,6 +24,21 @@ export default class BlogIndexPage extends React.Component {
           >
             Latest Stories
           </h1>
+            <div
+            style={{
+                alignSelf: 'flex-end',
+                boxShadow: 'rgb(25, 113, 163) 0.5rem 0px 0px, rgb(25, 113, 163) -0.5rem 0px 0px',
+                backgroundColor: 'rgb(25, 113, 163)',
+                color: 'white',
+                lineHeight: '1',
+                padding: '0.25em',
+                opacity: '0.7',
+                fontSize: '0.6em'
+      }}
+        >
+            Photo by Harald Arlander on Unsplash
+            </div>
+
         </div>
         <section className="section">
           <div className="container">
