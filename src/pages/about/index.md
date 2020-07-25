@@ -1,9 +1,5 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About us
+templateKey: about-page
+title: เกี่ยวกับ Digital EST
 ---
-### We believe there is a better way to deliver healthcare in Asia
-
-
-
+บริษัท Digital EST เป็นระบบที่พัฒนาจากประเทศสิงค์โปร์เพื่อช่วยเพิ่มศักยภาพด้านการบริหารการแพทย์และดูแลสุขภาพของผู้ป่วย ระบบของเราเป็นระบบคลาวด์แบบ Real Time ซึ่งจะช่วยเพิ่มความรวดเร็ว แม่นยำ อีกทั้งลดต้นทุนในการประกอบการ และเพิ่มความปลอดภัยในการรักษาของผู้ป่วยมากยิ่งขึ้น
