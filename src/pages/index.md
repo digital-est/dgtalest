@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: DIGITAL HEALTH SOLUTIONS
-image: /img/home-jumbotron.jpg
+image: /img/ปกเวป.jpg
 imageAttribution: Photo by Agustinus Nathaniel on Unsplash
 heading: Digital Health Solutions
 subheading: การบริหาร & บริการแพทย์ด้วยระบบดิจิทัล พัฒนาไปสู่ Smart Hospital
