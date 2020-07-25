@@ -1,32 +1,33 @@
 ---
 templateKey: index-page
-title: Digital Health Solutions
+title: DIGITAL HEALTH SOLUTIONS
 image: /img/home-jumbotron.jpg
 imageAttribution: Photo by Agustinus Nathaniel on Unsplash
 heading: Digital Health Solutions
-subheading: Building a connected healthcare app ecosystem
+subheading: การบริหาร & บริการแพทย์ด้วยระบบดิจิทัล พัฒนาไปสู่ Smart Hospital
 mainpitch:
   title: Why Digital EST
   description: >
-    We provide a better way to deliver healthcare to people
-    through a connected healthcare ecosystem and data-driven healthcare.
-description: >-
-  We offer a suite of healthcare software solutions
+    We provide a better way to deliver healthcare to people through a connected
+    healthcare ecosystem and data-driven healthcare.
+description: We offer a suite of healthcare software solutions
 intro:
   blurbs:
     - image: /img/clinic-network.png
-      text: >
+      text: |
         State-of-the-art cloud-native multi-branch clinic management solution
     - image: /img/emr.png
       text: >
-        Intuitive electronic medical record (EMR) system
-        and case note annotation software
+        Intuitive electronic medical record (EMR) system and case note
+        annotation software
     - image: /img/patient-centric.png
       text: >
-        Customized patient-centric mobile application enabling connected care journey
+        Customized patient-centric mobile application enabling connected care
+        journey
     - image: /img/analytics.png
       text: >
-        Bespoke data solutions for intelligent business decisions using visualition and predictive analytics
+        Bespoke data solutions for intelligent business decisions using
+        visualition and predictive analytics
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -50,3 +51,4 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
